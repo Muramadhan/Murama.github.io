@@ -1,0 +1,36 @@
+.navbar-brand {
+  background-color: #289acc;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #ebedef;
+}
+
+#project {
+  background-color: #ebedef;
+}
+
+/* Utility */
+.tombol {
+  text-transform: uppercase;
+  border-radius: 40px;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.nav-link:hover::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #ffffff;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+}
+
+.card-link {
+  text-align: left;
+}
