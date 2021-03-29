@@ -1,14 +1,18 @@
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
 .navbar-brand {
-  background-color: #289acc;
+  background-color: #ecab8f;
 }
 
 .jumbotron {
   padding-top: 6rem;
-  background-color: #ebedef;
+  background-color: #cfcfcf;
 }
 
 #project {
-  background-color: #ebedef;
+  background-color: #cfcfcf;
 }
 
 /* Utility */
@@ -33,4 +37,14 @@ section {
 
 .card-link {
   text-align: left;
+}
+
+.footer img {
+  width: 40px;
+  padding: 3px;
+}
+
+.card-header,
+.card-footer {
+  background-color: #cfcfcf;
 }
