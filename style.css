@@ -4,6 +4,7 @@ body {
 
 .navbar-brand {
   background-color: #ecab8f;
+  font-family: "Quicksand", sans-serif;
 }
 
 .jumbotron {
@@ -19,6 +20,12 @@ body {
 .tombol {
   text-transform: uppercase;
   border-radius: 40px;
+  filter: grayscale(0);
+  /* drop-shadow(0px 0px 5px rgba(249, 252, 252, 0.9)); */
+}
+.tombol:hover {
+  filter: grayscale(1);
+  /* drop-shadow(1px 1px 1px rgba(88, 88, 88, 0.8)); */
 }
 
 section {
@@ -39,12 +46,26 @@ section {
   text-align: left;
 }
 
-.footer img {
-  width: 40px;
-  padding: 3px;
-}
-
 .card-header,
 .card-footer {
   background-color: #cfcfcf;
+}
+
+.project img {
+  filter: grayscale(1);
+  /* drop-shadow(1px 1px 1px rgba(88, 88, 88, 0.8)); */
+}
+
+.project img:hover {
+  filter: grayscale(0);
+  /* drop-shadow(0px 0px 5px rgba(249, 252, 252, 0.9)); */
+}
+
+.bi {
+  text-transform: uppercase;
+  border-radius: 40px;
+  filter: grayscale(0) drop-shadow(0px 0px 5px rgba(249, 252, 252, 0.9));
+}
+.bi:hover {
+  filter: grayscale(0) drop-shadow(1px 1px 1px rgba(88, 88, 88, 0.8));
 }
